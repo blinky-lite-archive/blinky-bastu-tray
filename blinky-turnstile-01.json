@@ -1,5 +1,5 @@
 {
-  "deviceType": "blinky-DS18B20",
+  "deviceType": "blinky-turnstile",
   "name": "01",
   "arcPeriod": 60000,
   "timeStamp": 1617736565836,
@@ -7,7 +7,7 @@
   "linkQuality": {
     "action": "reading",
     "type": "scalar",
-    "value": 61,
+    "value": 59,
     "unit": "/70",
     "alarm": {
       "value": 0,
@@ -27,7 +27,7 @@
   "signalLevel": {
     "action": "reading",
     "type": "scalar",
-    "value": -49,
+    "value": -51,
     "unit": "dBm",
     "alarm": {
       "value": 0,
@@ -84,18 +84,18 @@
       }
     }
   },
-  "tempA": {
+  "position": {
     "action": "reading",
     "type": "scalar",
-    "value": -0.06,
-    "unit": "degrees",
+    "value": 4,
+    "unit": "unit",
     "alarm": {
-      "value": 3,
+      "value": 0,
       "limits": {
-        "lolo": 0,
-        "low": 12,
-        "high": 24,
-        "hihi": 36
+        "lolo": -1,
+        "low": -1,
+        "high": 5,
+        "hihi": 5
       },
       "notify": {
         "name": "",
@@ -104,18 +104,38 @@
       }
     }
   },
-  "tempB": {
+  "numTurns": {
     "action": "reading",
     "type": "scalar",
-    "value": 14,
-    "unit": "degrees",
+    "value": 0,
+    "unit": "unit",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": 0,
-        "low": 12,
-        "high": 24,
-        "hihi": 36
+        "lolo": -1,
+        "low": -1,
+        "high": 200,
+        "hihi": 200
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "resetTurns": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 0,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -1,
+        "low": -1,
+        "high": 2,
+        "hihi": 2
       },
       "notify": {
         "name": "",
