@@ -1,13 +1,13 @@
 {
   "deviceType": "blinky-turnstile",
   "name": "01",
-  "arcPeriod": 60000,
+  "arcPeriod": 1000,
   "timeStamp": 1617736565836,
   "lastArchive": 1617736537654,
   "linkQuality": {
     "action": "reading",
     "type": "scalar",
-    "value": 59,
+    "value": 60,
     "unit": "/70",
     "alarm": {
       "value": 0,
@@ -27,7 +27,7 @@
   "signalLevel": {
     "action": "reading",
     "type": "scalar",
-    "value": -51,
+    "value": -50,
     "unit": "dBm",
     "alarm": {
       "value": 0,
@@ -126,6 +126,26 @@
   },
   "resetTurns": {
     "action": "setting",
+    "type": "scalar",
+    "value": 0,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -1,
+        "low": -1,
+        "high": 2,
+        "hihi": 2
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "archiveData": {
+    "action": "reading",
     "type": "scalar",
     "value": 0,
     "unit": "unit",
