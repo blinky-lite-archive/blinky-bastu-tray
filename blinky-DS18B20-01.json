@@ -2,12 +2,12 @@
   "deviceType": "blinky-DS18B20",
   "name": "01",
   "arcPeriod": 60000,
-  "timeStamp": 1617736565836,
-  "lastArchive": 1617736537654,
+  "timeStamp": 1622140026882,
+  "lastArchive": 1622139997701,
   "linkQuality": {
     "action": "reading",
     "type": "scalar",
-    "value": 61,
+    "value": 66,
     "unit": "/70",
     "alarm": {
       "value": 0,
@@ -27,7 +27,7 @@
   "signalLevel": {
     "action": "reading",
     "type": "scalar",
-    "value": -49,
+    "value": -44,
     "unit": "dBm",
     "alarm": {
       "value": 0,
@@ -87,15 +87,15 @@
   "tempA": {
     "action": "reading",
     "type": "scalar",
-    "value": -0.06,
+    "value": 10.38,
     "unit": "degrees",
     "alarm": {
-      "value": 3,
+      "value": 1,
       "limits": {
         "lolo": 0,
-        "low": 12,
+        "low": 15,
         "high": 24,
-        "hihi": 36
+        "hihi": 30
       },
       "notify": {
         "name": "",
@@ -107,15 +107,15 @@
   "tempB": {
     "action": "reading",
     "type": "scalar",
-    "value": 14,
+    "value": 11.88,
     "unit": "degrees",
     "alarm": {
-      "value": 0,
+      "value": 1,
       "limits": {
         "lolo": 0,
-        "low": 12,
+        "low": 15,
         "high": 24,
-        "hihi": 36
+        "hihi": 30
       },
       "notify": {
         "name": "",
